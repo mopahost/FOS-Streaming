@@ -35,7 +35,7 @@ do
 		rm -r /usr/local/nginx/conf/nginx.conf
 		rm -r /usr/src/FOS-Streaming
 		cd /usr/src/
-		git clone https://github.com/zgelici/FOS-Streaming.git
+		git clone https://github.com/mopahost/FOS-Streaming.git
 		cd /usr/src/FOS-Streaming/
 		mv /usr/src/FOS-Streaming/nginx.conf /usr/local/nginx/conf/nginx.conf
 		mv /usr/src/FOS-Streaming/* /usr/local/nginx/html/
@@ -100,7 +100,7 @@ do
 		 #**************NGINX INSTALL END LINE**************#
 		rm -r /usr/local/nginx/conf/nginx.conf
 		cd /usr/src/
-		git clone https://github.com/zgelici/FOS-Streaming.git
+		git clone https://github.com/mopahost/FOS-Streaming.git
 		cd /usr/src/FOS-Streaming/
 		mv /usr/src/FOS-Streaming/nginx.conf /usr/local/nginx/conf/nginx.conf
 		mv /usr/src/FOS-Streaming/* /usr/local/nginx/html/
