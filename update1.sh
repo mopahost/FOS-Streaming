@@ -10,7 +10,7 @@ cd /usr/local/nginx/html
 mv /usr/local/nginx/html/config.php /tmp/
 rm -r /usr/local/nginx/html/*
 cd /usr/src/
-git clone https://github.com/zgelici/FOS-Streaming.git
+git clone https://github.com/mopahost/FOS-Streaming.git
 cd /usr/src/FOS-Streaming/
 mv /usr/src/FOS-Streaming/* /usr/local/nginx/html/
 mv /tmp/config.php /usr/local/nginx/html
